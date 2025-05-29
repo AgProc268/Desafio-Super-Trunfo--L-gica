@@ -43,37 +43,37 @@ int main() {
 
             case 2:
                 printf("\nPopulação:\n%s: %d\n%s: %d\n", cidade1, habitantes1, cidade2, habitantes2);
-                if (habitantes1 > habitantes2) printf("→ Carta 1 venceu!\n");
-                else if (habitantes1 < habitantes2) printf("→ Carta 2 venceu!\n");
-                else printf("→ Empate!\n");
+                if (habitantes1 > habitantes2) printf(" Carta 1 venceu!\n");
+                else if (habitantes1 < habitantes2) printf(" Carta 2 venceu!\n");
+                else printf("Empate!\n");
                 break;
 
             case 3:
                 printf("\nÁrea:\n%s: %.2f km²\n%s: %.2f km²\n", cidade1, area1, cidade2, area2);
-                if (area1 > area2) printf("→ Carta 1 venceu!\n");
-                else if (area1 < area2) printf("→ Carta 2 venceu!\n");
-                else printf("→ Empate!\n");
+                if (area1 > area2) printf("Carta 1 venceu!\n");
+                else if (area1 < area2) printf(" Carta 2 venceu!\n");
+                else printf("Empate!\n");
                 break;
 
             case 4:
                 printf("\nPIB:\n%s: %.2f bilhões\n%s: %.2f bilhões\n", cidade1, pib1, cidade2, pib2);
-                if (pib1 > pib2) printf("→ Carta 1 venceu!\n");
-                else if (pib1 < pib2) printf("→ Carta 2 venceu!\n");
-                else printf("→ Empate!\n");
+                if (pib1 > pib2) printf("Carta 1 venceu!\n");
+                else if (pib1 < pib2) printf("Carta 2 venceu!\n");
+                else printf("Empate!\n");
                 break;
 
             case 5:
                 printf("\nPontos Turísticos:\n%s: %d\n%s: %d\n", cidade1, pontosTuristicos1, cidade2, pontosTuristicos2);
-                if (pontosTuristicos1 > pontosTuristicos2) printf("→ Carta 1 venceu!\n");
-                else if (pontosTuristicos1 < pontosTuristicos2) printf("→ Carta 2 venceu!\n");
-                else printf("→ Empate!\n");
+                if (pontosTuristicos1 > pontosTuristicos2) printf("Carta 1 venceu!\n");
+                else if (pontosTuristicos1 < pontosTuristicos2) printf("Carta 2 venceu!\n");
+                else printf("Empate!\n");
                 break;
 
             case 6:
                 printf("\nDensidade Populacional:\n%s: %.2f hab/km²\n%s: %.2f hab/km²\n", cidade1, densidade1, cidade2, densidade2);
-                if (densidade1 < densidade2) printf("→ Carta 1 venceu (menor densidade)!\n");
-                else if (densidade1 > densidade2) printf("→ Carta 2 venceu (menor densidade)!\n");
-                else printf("→ Empate!\n");
+                if (densidade1 < densidade2) printf("Carta 1 venceu (menor densidade)!\n");
+                else if (densidade1 > densidade2) printf(" Carta 2 venceu (menor densidade)!\n");
+                else printf("Empate!\n");
                 break;
 
             case 0:
