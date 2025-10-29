@@ -1,74 +1,66 @@
-# ⚠️ Importante!!!
-Você pode escolher qualquer um dos desafios para desenvolver. Sinta-se à vontade para começar pelo desafio que mais lhe interessa.
+🌎 Desafio Super Trunfo — Países 🃏
 
-# Desafio Super Trunfo - Países - Comparação das Cartas
 
-Bem-vindo ao desafio "Super Trunfo - Países"! Neste projeto, você desenvolverá um sistema para comparar cartas baseadas em atributos de cidades. O desafio é dividido em três níveis: Novato, Aventureiro e Mestre. Cada nível adiciona novas funcionalidades e complexidades, permitindo um aprendizado progressivo.
-
-## 🏅 Nível Novato
-
-No nível Novato, você começará implementando a lógica básica de comparação entre cartas utilizando estruturas de decisão `if` e `if-else`.
-
-### 🚩 Objetivos:
-- **Cadastro de Cartas:** O sistema permitirá ao usuário cadastrar cartas de cidades, incluindo informações como estado, código da carta, nome da cidade, população, área, PIB e número de pontos turísticos.
-- **Comparação de Cartas:** O sistema comparará os atributos de duas cartas e determinará a vencedora com base em uma propriedade específica (população, área, PIB, etc.), escolhida no código.
-- **Exibição de Resultados:** Após a comparação, o sistema exibirá qual carta venceu com base na regra: maior valor vence, exceto em densidade populacional, onde o menor valor é o vencedor.
-
-### 📥 Entrada de Dados:
-- Os dados das cartas serão inseridos manualmente via terminal.
-- O sistema solicitará interativamente as informações de cada carta.
-
-### 📤 Saída de Dados:
-- Após o cadastro, as propriedades da cidade serão exibidas de forma organizada.
-- O resultado da comparação será mostrado, indicando a carta vencedora.
+Esse é mais um dos desafios da faculdade de **Ciência da Computação**, e a ideia aqui é criar um sistema que compara **cartas de cidades** com base em seus atributos — tipo um Super Trunfo mesmo, mas de **Países e Cidades**!
+Cada nível adiciona uma nova camada de lógica, menus e comparações, pra ir evoluindo aos poucos e deixar o jogo mais dinâmico.
 
 ---
 
-## 🏅 Nível Aventureiro
+🐣 Nível Novato – Comparando Cartas
 
-No nível Aventureiro, você expandirá o sistema para incluir a comparação aninhada e a criação de um menu interativo usando `switch`.
+Nesse primeiro nível, o foco é montar a base do jogo: **cadastrar as cartas** e **comparar os atributos** usando estruturas simples de decisão (`if` e `if-else`).
 
-### 🆕 Diferença em relação ao Nível Novato:
-- **Menu Interativo:** O usuário poderá escolher diferentes atributos para comparação através de um menu.
-- **Comparação Aninhada:** Implementação de lógica de comparação mais complexa, utilizando estruturas aninhadas para tomar decisões baseadas em múltiplos atributos.
+📍 **O que o programa faz:**
 
-### 🚩 Novas Funcionalidades:
-- **Cadastro de Cartas:** Similar ao nível Novato, com a adição de comparação de múltiplos atributos.
-- **Menu Interativo:** Uso de `switch` para criar um menu que permite ao jogador escolher os atributos a serem comparados.
-- **Exibição de Resultados:** O sistema exibirá o resultado da comparação, indicando qual carta venceu e qual atributo foi utilizado.
+* Cadastra duas cartas de cidades, pedindo informações como estado, código, nome da cidade, população, área, PIB e número de pontos turísticos.
+* Compara um dos atributos (por exemplo, população ou PIB) e mostra qual carta vence.
+* Segue a regra clássica do Super Trunfo: **maior valor vence**, exceto na **densidade populacional**, onde o **menor valor ganha**.
 
----
-
-## 🏅 Nível Mestre
-
-No nível Mestre, o desafio se intensifica com a adição de funcionalidades avançadas, como menus dinâmicos e lógica de decisão complexa com operadores ternários.
-
-### 🆕 Diferença em relação ao Nível Aventureiro:
-- **Escolha de Dois Atributos:** O usuário poderá escolher dois atributos para comparação entre as cartas.
-- **Lógica de Decisão Complexa:** Implementação de estruturas de decisão aninhadas e encadeadas, além do uso de operadores ternários para determinar a carta vencedora.
-- **Menus Dinâmicos:** Os menus serão dinâmicos, permitindo uma navegação fluida entre as opções de comparação.
-
-### 🚩 Novas Funcionalidades:
-- **Comparação de Dois Atributos:** O sistema comparará dois atributos simultaneamente para determinar a carta vencedora.
-- **Lógica Avançada:** Uso de operadores ternários e lógica aninhada para lidar com comparações complexas.
-- **Empates:** O sistema será capaz de lidar com empates, exibindo mensagens apropriadas.
-- **Exibição de Resultados:** Exibição dos resultados das comparações de forma clara e interativa.
+💡 Tudo é feito via terminal, com as informações sendo digitadas pelo usuário, e o resultado aparece de forma organizada na tela.
 
 ---
 
-## 📋 Requisitos Funcionais Comuns
-- **Cadastro de Cartas:** O sistema deve permitir o cadastro de cartas com as informações necessárias.
-- **Comparação:** O sistema deve comparar as cartas e determinar a vencedora com base nas regras estabelecidas.
-- **Exibição de Resultados:** Os resultados devem ser exibidos de forma clara, indicando a carta vencedora.
+  🧭 Nível Aventureiro – Menu Interativo e Comparações Múltiplas
 
-## 📌 Requisitos Não Funcionais Comuns
-- **Usabilidade:** A interface do usuário deve ser simples e intuitiva.
-- **Performance:** O sistema deve executar operações sem atrasos perceptíveis.
-- **Manutenibilidade:** O código deve ser bem estruturado e documentado.
-- **Confiabilidade:** O sistema deve ser robusto e capaz de lidar com entradas inválidas de forma adequada.
+Aqui o jogo começa a ficar mais interessante 🕹️
+Além de comparar, agora o sistema oferece um **menu interativo** usando `switch`, pra o jogador escolher qual atributo quer usar na rodada.
+
+📍 **Novidades nesse nível:**
+
+* Menu de opções pra escolher o atributo da comparação.
+* Comparações aninhadas, permitindo decisões mais complexas entre as cartas.
+* Resultados exibidos de forma clara, mostrando qual carta venceu e o atributo escolhido.
+
+Esse nível ajuda a entender melhor como as **estruturas condicionais aninhadas** funcionam e como deixar o código mais interativo e flexível.
 
 ---
 
-Boa sorte no desenvolvimento deste desafio e aproveite para aprender e se divertir enquanto progride pelos níveis!
+🏆 Nível Mestre – Lógica Avançada e Menus Dinâmicos
 
-Equipe de Ensino - MateCheck
+No último nível, a brincadeira ganha cara de sistema completo 💪
+Agora dá pra escolher **dois atributos** pra comparação, e o código usa **operadores ternários** e **decisões encadeadas** pra tornar a lógica mais elegante e poderosa.
+
+📍 **O que muda aqui:**
+
+* Comparação de **dois atributos ao mesmo tempo**.
+* Uso de **operadores ternários** e **lógica aninhada** pra determinar o vencedor.
+* **Menus dinâmicos**, que tornam a navegação mais fluida e intuitiva.
+* O sistema também reconhece **empates** e mostra mensagens personalizadas.
+
+✨ Essa etapa é perfeita pra entender como aplicar lógica mais complexa sem perder clareza e organização no código.
+
+---
+
+💻 O que aprendi
+
+* Estruturas de decisão (`if`, `else if`, `switch`) e operadores ternários
+* Criação de menus interativos e comparações múltiplas
+* Como organizar código limpo e de fácil leitura
+* A importância de pensar a lógica de forma estruturada e evolutiva
+
+---
+
+Esse desafio foi ótimo pra consolidar conceitos de **condições**, **decisões aninhadas** e **interatividade em C**.
+Cada nível tem sua própria dificuldade, mas juntos formam um passo a passo que mostra como o código pode crescer junto com o aprendizado 💫
+
+---
